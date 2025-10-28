@@ -9,6 +9,7 @@
   },
   "files": [
     "postinstall.sh",
+    "tsconfig.json",
     "tsconfig.json_"
   ],
   "homepage": "https://github.com/RobinBobin/ts-config#readme",
