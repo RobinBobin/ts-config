@@ -7,6 +7,10 @@
   "devDependencies": {
     "typescript": "^5.9.3"
   },
+  "files": [
+    "postinstall.sh",
+    "tsconfig.json_"
+  ],
   "homepage": "https://github.com/RobinBobin/ts-config#readme",
   "keywords": [
     "typescript config"
@@ -19,6 +23,9 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/RobinBobin/ts-config.git"
+  },
+  "scripts": {
+    "postinstall": "chmod u+x postinstall.sh && ./postinstall.sh"
   },
   "version": "0.0.2"
 }
