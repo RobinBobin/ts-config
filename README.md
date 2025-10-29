@@ -8,6 +8,6 @@ Install the following packages:
 
 ## tsconfig.json
 
-A script invoked during `postinstall` copies a sample TS config, named `tsconfig.json_<number>` to your project root dir. You can copy this file manually if you don't want to let `postinstall` execute:
+The script invoked during `postinstall` copies a sample TS config to your project root dir, naming the file `tsconfig.json_<number>`. Don't forget to delete the `_<number>` part from the file name. You can copy this sample config manually if you don't want to let `postinstall` execute:
 
-    cp node_modules/@robinbobin/ts-config/tsconfig.json_<number> .
+    cp node_modules/@robinbobin/ts-config/tsconfig.json_ ./tsconfig.json
