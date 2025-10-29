@@ -28,5 +28,5 @@
   "scripts": {
     "postinstall": "chmod u+x postinstall.sh && ./postinstall.sh"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
